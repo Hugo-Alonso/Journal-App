@@ -1,11 +1,14 @@
 import React from 'react';
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from "react-router-dom"
 import './styles.css'
 import { JournalApp } from './JournalApp';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <JournalApp />
+    <BrowserRouter>
+      <JournalApp />    
+    </BrowserRouter>
   </StrictMode>,
 )
