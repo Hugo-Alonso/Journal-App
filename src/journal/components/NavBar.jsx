@@ -9,9 +9,7 @@ export const NavBar = () => {
     >
         <Toolbar>
             <IconButton>
-                <MenuOutlined>
-                    
-                </MenuOutlined>
+                <MenuOutlined />
             </IconButton>
         </Toolbar>
     </AppBar>
